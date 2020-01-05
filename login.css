@@ -1,0 +1,88 @@
+:root {
+  --blue: #2167ff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Raleway;
+}
+
+body {
+  background-image: url("https://img.freepik.com/free-vector/blue-wavy-abstract-background_1409-897.jpg?size=626&ext=jpg");
+  background-size: cover;
+}
+
+.login-header {
+  font-size: 50px;
+  text-align: center;
+  margin: 0 0 20px 0 !important;
+}
+
+label {
+  font-size: 20px;
+}
+
+.float-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  padding: 50px;
+  box-shadow: 0 5px 7.5px rgba(0,0,0,.3);
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 400px;
+  z-index: 30;
+}
+
+.icon {
+  height: 100%;
+}
+
+.login-input {
+  padding: 10px;
+  outline: none;
+  border: 1px solid #eee;
+  border-radius: 3px;
+  width: 100%;
+  font-size: 15px;
+}
+
+.login-input:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.forgot-password {
+  margin: none !important;
+  text-align: right;
+}
+
+.login-submit {
+  width: 100%;
+  background-color: var(--blue);
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  transition: all .2s;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.login-submit:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 3px rgba(0,0,0,.3);
+}
+
+small {
+  display: block;
+  text-align: center;
+}
+
+a {
+  color: var(--blue);
+  text-decoration: none;
+}
